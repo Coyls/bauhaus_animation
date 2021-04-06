@@ -1,0 +1,351 @@
+/* ANIMATION */
+
+/*!!!!!! OUVRIR DANS UNE FENETRE 1050x1485 !!!!!!!*/
+
+*{
+    animation-timing-function: linear;
+}
+
+/* ------------------------------------------------------------- */
+
+#bg-left{
+    
+    
+    animation-name : bg-left; 
+    animation-duration : 1s; 
+    animation-direction : normal; /* (reverse, alternate, alternate-reverse) */
+    animation-iteration-count : 1;
+    
+    
+}
+
+@keyframes bg-left{
+    from{
+        transform: translateY(-1000px);
+        
+    }to{
+        transform: translateY(0px);
+    }
+
+}
+
+/* ------------------------------------------------------------- */
+
+
+#bg-right{
+    
+    
+    animation-name : bg-right; 
+    animation-duration : 1s; 
+    animation-direction : normal; /* (reverse, alternate, alternate-reverse) */
+    animation-iteration-count : 1;
+    
+    
+}
+
+@keyframes bg-right{
+    from{
+        transform: translateY(1000px);
+        
+    }to{
+        transform: translateY(0px);
+    }
+
+}
+
+/* ------------------------------------------------------------- */
+
+
+#tower-left{
+    
+    
+    animation-name : tower-left; 
+    animation-duration : 1.5s; 
+    animation-direction : normal; /* (reverse, alternate, alternate-reverse) */
+    animation-iteration-count : 1;
+    
+    
+}
+
+@keyframes tower-left{
+    from{
+        transform: translateX(-1000px);
+        
+    }to{
+        transform: translateX(0px)
+    }
+
+}
+
+/* ------------------------------------------------------------- */
+
+#window-left{
+    animation-name : window-left; 
+    animation-duration : 2s; 
+    animation-direction : normal; /* (reverse, alternate, alternate-reverse) */
+    animation-iteration-count : 1;
+    
+    
+}
+
+@keyframes window-left{
+    from{
+        transform: translateY(-1000px);
+        
+    }to{
+        transform: translateY(0px)
+    }
+
+}
+
+/* ------------------------------------------------------------- */
+
+#cube-left, #rectangle-left{
+    animation-name : carreaux-left; 
+    animation-duration : 2.5s; 
+    animation-direction : normal; /* (reverse, alternate, alternate-reverse) */
+    animation-iteration-count : 1;
+    
+    
+}
+
+@keyframes carreaux-left{
+    from{
+        transform: translateY(2000px);
+        
+    }to{
+        transform: translateY(0px)
+    }
+
+}
+
+
+
+/* ------------------------------------------------------------- */
+
+
+#tower-right{
+    animation-name : tower-right; 
+    animation-duration : 3s; 
+    animation-direction : normal; /* (reverse, alternate, alternate-reverse) */
+    animation-iteration-count : 1;
+        
+}
+
+@keyframes tower-right{
+    from{
+        transform: translateX(1000px);
+        
+    }to{
+        transform: translateX(0px)
+    }
+
+}
+
+
+/* ------------------------------------------------------------- */
+
+#window-right{
+    animation-name : window-right; 
+    animation-duration : 4s; 
+    animation-direction : normal; /* (reverse, alternate, alternate-reverse) */
+    animation-iteration-count : 1;
+    
+}
+
+@keyframes window-right{
+    from{
+        transform: translateY(1000px);
+        
+    }to{
+        transform: translateY(0px)
+    }
+
+}
+
+
+/* ------------------------------------------------------------- */
+
+#cube-right, #rectangle-right{
+    animation-name : carreaux-right; 
+    animation-duration : 4.5s; 
+    animation-direction : normal; /* (reverse, alternate, alternate-reverse) */
+    animation-iteration-count : 1;
+    
+    
+}
+
+@keyframes carreaux-right{
+    from{
+        transform: translateX(1500px);
+        
+    }to{
+        transform: translateX(0px)
+    }
+
+}
+
+
+
+/* ------------------------------------------------------------- */
+
+#roof{
+    animation-name : roof; 
+    animation-duration : 2s; 
+    animation-direction : normal; /* (reverse, alternate, alternate-reverse) */
+    animation-iteration-count : 1;
+    
+}
+
+@keyframes roof{
+    from{
+        transform: translateY(-1000px);
+        
+    }to{
+        transform: translateY(0px)
+    }
+
+}
+
+
+
+/* ------------------------------------------------------------- */
+
+#logo-container{
+    animation-name : logo-container; 
+    animation-duration : 3s; 
+    animation-direction : normal; /* (reverse, alternate, alternate-reverse) */
+    animation-iteration-count : 1;
+    
+}
+
+@keyframes logo-container{
+    from{
+        transform: translateY(1000px);
+        
+    }to{
+        transform: translateY(0px)
+    }
+
+}
+
+/* ------------------------------------------------------------- */
+
+#logo-top{
+    animation-name : logo-top; 
+    animation-duration : 3.5s; 
+    animation-direction : normal; /* (reverse, alternate, alternate-reverse) */
+    animation-iteration-count : 1;
+    
+}
+
+@keyframes logo-top{
+    from{
+        transform: translateX(1000px);
+        
+    }to{
+        transform: translateX(0px)
+    }
+
+}
+
+/* ------------------------------------------------------------- */
+
+#logo-bot{
+    animation-name : logo-bot; 
+    animation-duration : 4s; 
+    animation-direction : normal; /* (reverse, alternate, alternate-reverse) */
+    animation-iteration-count : 1;
+    
+}
+
+@keyframes logo-bot{
+    from{
+        transform: translateX(-1000px);
+        
+    }to{
+        transform: translateX(0px)
+    }
+
+}
+
+/* ------------------------------------------------------------- */
+
+#container-txt-h2{
+    animation-name : container-txt-h2; 
+    animation-duration : 3.5s; 
+    animation-direction : normal; /* (reverse, alternate, alternate-reverse) */
+    animation-iteration-count : 1;
+    
+}
+
+@keyframes container-txt-h2{
+    from{
+        transform: translateX(1000px);
+        
+    }to{
+        transform: translateX(0px)
+    }
+
+}
+
+/* ------------------------------------------------------------- */
+
+h1{
+    animation-name : h1; 
+    animation-duration : 2.8s; 
+    animation-direction : normal; /* (reverse, alternate, alternate-reverse) */
+    animation-iteration-count : 1;
+    
+}
+
+@keyframes h1{
+    from{
+        transform: translateX(-1000px);
+        
+    }to{
+        transform: translateX(0px)
+    }
+
+}
+
+/* ------------------------------------------------------------- */
+
+p{
+    animation-name : p; 
+    animation-duration : 4.4s; 
+    animation-direction : normal; /* (reverse, alternate, alternate-reverse) */
+    animation-iteration-count : 1;
+    
+}
+
+@keyframes p{
+    from{
+        transform: translateY(1000px);
+        
+    }to{
+        transform: translateY(0px)
+    }
+
+}
+
+/* ------------------------------------------------------------- */
+
+@media screen and (min-width: 1700px){
+    
+    #container-flex{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 0vh;
+    padding: 0 auto;
+    height: auto;
+}
+}
+
+
+
+
+
+
+
